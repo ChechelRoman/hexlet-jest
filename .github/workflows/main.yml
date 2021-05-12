@@ -17,4 +17,4 @@ jobs:
       - name: install
         run: npm ci
       - name: start test
-        run: npx jest
+        run: npm test
